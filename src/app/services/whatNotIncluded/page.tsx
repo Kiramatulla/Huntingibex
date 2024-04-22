@@ -27,9 +27,12 @@ export default function WhatNotIncluded
             className="center"
           />
         </div>
+
+{/*         
         <p className="font-serif text-justify leading-relaxed pt-5 md:pt-10 pr-5 md:pr-28 pl-5 md:pl-28 text-sm md:text-base">
           <strong>Awesome Places to Stay:</strong> <br />
           <br />
+         
           Making Your Hunting Trip Super Cool! At [Your Hunting Company's Name],
           we know that having a great place to stay is super important when
           you're out hunting. That's why we've made sure that where you sleep is
@@ -50,7 +53,7 @@ export default function WhatNotIncluded
           <br /> Treat yourself to some spa time or join in on fun outdoor
           activities like hiking or fishing. It's all about having a blast! So,
           when you come hunting with us at [Your Hunting Company's Name], you're
-          not just getting an adventure in the wild – you're getting a cozy home
+          not just getting an adventure in the wild  you're getting a cozy home
           away from home too. Book your trip with us today and get ready for an
           awesome hunting experience!
           <br />
@@ -78,7 +81,7 @@ export default function WhatNotIncluded
           the epitome of comfort and hospitality with [Your Hunting Company's
           Name]. Book your hunting adventure with us today and embark on a
           journey into the heart of nature's bounty.
-        </p>
+        </p> */}
       </div>
       <div className="flex justify-center hover:gray-500"><Link href={'/services'} ><button className="bg-slate-900 text-white p-3 rounded mt-8 hover:bg-gray-700 hover:text-gray-200">BACK TO SERVICES</button></Link></div>
     </div>
