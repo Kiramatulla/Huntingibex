@@ -1,5 +1,5 @@
 import Image from "next/image";
-import trek2 from "/public/images/borithsnip.png";
+// import trek2 from "/public/images/borithsnip.png";
 import circleborith from "/public/images/borithlake.jpg";
 import circlegulmitlake from "/public/images/gulmitlake.jpg";
 import Link from 'next/link'
@@ -9,7 +9,7 @@ export default function BlogPage2() {
     <div className="flex flex-row items-center  mt-20 mr-10 ml-10 lg:mt-28 lg:ml-28 lg:mr-[140px] overflow-hidden">
       <div className="flex flex-col items-center lg:flex-row bg-white lg:mr-60 shadow-2xl rounded-2xl">
         <Image
-          src={trek2}
+          src={circleborith}
           alt="blogmap"
           // Set initial height of the image
           className="rounded-lg h-[20rem] w-[13rem] "

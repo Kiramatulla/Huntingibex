@@ -2,7 +2,7 @@ import Image from "next/image";
 import img1 from "public/images/ibeximage.jpg";
 import img2 from "public/images/mark.jpg";
 import img3 from "public/images/markhoree.jpg";
-import ibexphoto from "/public/images/ibexphoto.jpg"
+// import ibexphoto from "/public/images/ibexphoto.jpg"
 
 
 export default function Packages() {
@@ -18,7 +18,7 @@ export default function Packages() {
         <div className="bg-white border-2 rounded-xl overflow-hidden shadow-lg mb-8 lg:mb-0 lg:mr-8 lg:w-[22rem]">
           <div className="relative w-full h-[18rem] lg:h-[28.25rem]">
             <Image
-              src={ibexphoto}
+              src={img1}
               alt="Hunt Image"
               className="absolute inset-0 w-full h-full object-cover border-8 rounded-2xl transition-transform duration-300 transform hover:scale-105"
             />
