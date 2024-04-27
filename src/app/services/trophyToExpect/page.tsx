@@ -74,7 +74,7 @@ export default function TrophyToExpect() {
           create unforgettable memories that will last a lifetime. Experience
           the epitome of comfort and hospitality with [Your Hunting Company&apos;s
           Name]. Book your hunting adventure with us today and embark on a
-          journey into the heart of nature&apos;s bounty.
+          journey into the heart of nature&apos;s bounty. This is for test purpose.
         </p>
       </div>
       <div className="flex justify-center hover:gray-500"><Link href={'/services'} ><button className="bg-slate-900 text-white p-3 rounded mt-8 hover:bg-gray-700 hover:text-gray-200">BACK TO SERVICES</button></Link></div>
