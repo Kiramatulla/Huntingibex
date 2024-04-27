@@ -2,8 +2,7 @@ import Image from "next/image";
 import img1 from "../../../../public/images/ibeximage.jpg";
 import img2 from "../../../../public/images/mark.jpg";
 import img3 from "../../../../public/images/markhoree.jpg";
-// import ibexphoto from "/public/images/ibexphoto.jpg"
-
+// import ibexphoto from "../../../../public/images/ibexphoto.jpg"
 
 export default function Packages() {
   return (
