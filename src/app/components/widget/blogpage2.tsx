@@ -17,7 +17,7 @@ export default function BlogPage2() {
         <div className="lg:ml-6 lg:mr-6 lg:mt-4 pr-4 pl-4 pb-4">
           <h1 className="font-bold text-center">Hunza WildLife</h1>
           <p className="mt-4 text-center">
-            In the heart of nature's tapestry, wildlife dances with vibrant
+            In the heart of nature&apos;s tapestry, wildlife dances with vibrant
             hues, Creatures of the wild, guardians of ancient views. From
             majestic eagles soaring in the azure sky, To the delicate rustle
             From majestic eagles soaring in the azure sky,From majestic eagles

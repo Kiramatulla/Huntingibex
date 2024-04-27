@@ -21,7 +21,7 @@ export default function Services() {
       <p className='pr-10 pl-10 sm:pr-40 sm:pl-40 pb-20 text-center text-lg'>Unlock the wilderness and embrace the thrill 
         of the hunt with our tailored services. From 
         luxurious accommodations to expert-led expeditions,
-         we ensure an unparalleled adventure amidst nature's grandeur. 
+         we ensure an unparalleled adventure amidst nature&apos;s grandeur. 
          Explore diverse terrains, track legendary game, and create lasting
           memories with our seasoned guides. With transparent pricing and
            customizable options, your dream hunt awaits. Plan your 

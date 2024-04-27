@@ -9,7 +9,7 @@ export default function Packages() {
     <section className="mt-20 pt-20 pb-20 bg-gray-100 overflow-hidden">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold font-serif mb-2">Featured Trips</h2>
-        <p className="text-lg font-semibold">It's Time to Start Your Hunting Journey</p>
+        <p className="text-lg font-semibold">It&apos;s Time to Start Your Hunting Journey</p>
       </div>
 
       {/* First Package */}
