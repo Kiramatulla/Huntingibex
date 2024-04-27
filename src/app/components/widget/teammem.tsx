@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import kirama from "/public/images/kiramatt.jpeg";
-import hassan from "/public/images/hassan.jpg";
-import nahid from "/public/images/karimalishah.jpg";
+import kirama from "../../../../public/images/kiramatt.jpeg";
+import hassan from "../../../../public/images/hassan.jpg";
+import nahid from "../../../../public/images/karimalishah.jpg";
 import Shared from "../widget/shared"
 import { FaFacebook,FaInstagram,FaYoutube } from "react-icons/fa";
 

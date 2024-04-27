@@ -1,8 +1,7 @@
 import React from "react";
 import Footer from "../../components/widget/footer";
 import Image from "next/image";
-import accomodation from "public/images/accomodationpage.jpg"
-import trophyexpect from "public/images/trophyExpect.jpg";
+import trophyexpect from "../../../../public/images/trophyExpect.jpg";
 import Link from "next/link"
 
 

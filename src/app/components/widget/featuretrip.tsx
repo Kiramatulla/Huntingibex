@@ -1,9 +1,8 @@
-
 import Image from "next/image";
-import img1 from "public/images/ibeximage.jpg";
-import img2 from "public/images/mark.jpg";
-import img3 from "public/images/markhoree.jpg";
-import img4 from "public/images/markhore.jpg";
+import img1 from "../../../../public/images/ibeximage.jpg";
+import img2 from "../../../../public/images/mark.jpg";
+import img3 from "../../../../public/images/markhoree.jpg";
+
 export default function Featuretrip() {
   return (
     <section>

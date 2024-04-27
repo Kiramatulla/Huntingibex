@@ -1,10 +1,8 @@
 import React from "react";
 import Footer from "../../components/widget/footer";
 import Image from "next/image";
-import accomodation from "public/images/accomodationpage.jpg"
-import img3 from "public/images/markhoree.jpg";
+import accomodation from "../../../../public/images/accomodationpage.jpg"
 import Link from "next/link"
-
 
 export default function PreferredTiming() {
   return (

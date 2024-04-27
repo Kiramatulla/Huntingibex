@@ -1,9 +1,7 @@
 import Image from "next/image";
-import trek2 from "/public/images/kir3.jpeg"
-import circleborith from "/public/images/gulmit.jpg"
-import circlegulmitlake from "/public/images/trek.jpg"
-
-
+import trek2 from "../../../../public/images/kir3.jpeg"
+import circleborith from "../../../../public/images/gulmit.jpg"
+import circlegulmitlake from "../../../../public/images/trek.jpg"
 
 export default function BlogPage3() {
     return (

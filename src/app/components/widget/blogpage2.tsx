@@ -1,7 +1,7 @@
 import Image from "next/image";
 // import trek2 from "/public/images/borithsnip.png";
-import circleborith from "/public/images/borithlake.jpg";
-import circlegulmitlake from "/public/images/gulmitlake.jpg";
+import circleborith from "../../../../public/images/borithlake.jpg";
+import circlegulmitlake from "../../../../public/images/gulmitlake.jpg";
 import Link from 'next/link'
 
 export default function BlogPage2() {

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import maps from "public/images/map.jpg";
-import treks from "public/images/trekk.jpg";
+import maps from "../../../../public/images/map.jpg";
+import treks from "../../../../public/images/trekk.jpg";
 
 export default function BlogHome() {
   return (
