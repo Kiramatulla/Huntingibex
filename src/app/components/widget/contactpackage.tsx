@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from "next/link";
 
-
 export default function Contactpackage() {
   return (
     <div className="h-[30rem] flex flex-col justify-center items-center bg-gray-900">

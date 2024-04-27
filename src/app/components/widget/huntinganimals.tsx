@@ -1,7 +1,7 @@
 import Image from "next/image";
-import img2 from "public/images/mark.jpg";
-import img3 from "public/images/markhoree.jpg";
-import ibexphoto from "/public/images/ibexphoto.jpg"
+import img2 from "../../../../public/images/mark.jpg";
+import img3 from "../../../../public/images/markhoree.jpg";
+import ibexphoto from "../../../../public/images//Ibexphoto.jpg"
 
 export default function HuntingAnimals() {
   return (

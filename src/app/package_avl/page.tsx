@@ -1,8 +1,6 @@
-
 import Packages from "../components/widget/packages"
 import Contactpackage from "../components/widget/contactpackage"
 import Footer from "../components/widget/footer"
-
 
 export default function package_avl() {
   return (
