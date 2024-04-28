@@ -73,7 +73,7 @@ export default function HunzaValley() {
           create unforgettable memories that will last a lifetime. Experience
           the epitome of comfort and hospitality with [Your Hunting Company&apos;s
           Name]. Book your hunting adventure with us today and embark on a
-          journey into the heart of nature&apos;s bounty.
+          journey into the heart of nature&apos;s bounty. my name is kiramat
         </p>
       </div>
       <div className="flex justify-center "><Link href={'/blogs'} ><button className="bg-slate-700 text-white p-3 rounded mt-8 hover:bg-gray-700 hover:text-gray-900">BACK TO BLOGS</button></Link></div>
