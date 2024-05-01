@@ -1,64 +1,99 @@
-import Image from "next/image";
-import img2 from "../../../../public/images/mark.jpg";
-import img3 from "../../../../public/images/markhoree.jpg";
-import ibexphoto from "../../../../public/images//Ibexphoto.jpg"
+import React from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
+import ibex from "../../../../public/images/ibex_gulmit_region.jpg";
+import ibex_ghulkin from "../../../../public/images/ibex_ghulkin_region.jpg";
 
-export default function HuntingAnimals() {
+
+
+
+export default function Page() {
   return (
-    <section className="bg-[#fafafa] flex flex-col">
-      <div className="mt-10">
-        <h1 className="text-center font-serif text-2xl font-bold">
-          FEATURED TRIPS
-        </h1>
-        <h2 className="text-center text-lg font-semibold">
-          ITS TIME TO START YOUR HUNTING JOURNEY
-        </h2>
-      </div>
-      <main className="flex flex-col justify-center items-center mt-10 mb-10 sm:flex-row ">
-        {/* ==============FIRST IMAGE=========== */}
-        <div className="flex flex-col items-center m-4 group border shadow-xl ">
+    <main className='flex flex-col md:flex-row justify-center pt-8 md:pt-20 space-y-8  md:space-y-0 md:space-x-4'>
+      <div className="flex flex-col h-[27rem] w-full md:w-[17rem]  bg-white rounded-lg shadow-xl">
+        <div className="relative h-[14rem] md:h-[15rem] rounded-t-lg overflow-hidden">
           <Image
-            src={ibexphoto}
+            src={ibex}
             alt="ibex"
-            className="w-80 h-80 object-fill transition-transform transform group-hover:scale-105 rounded-3xl shadow-2xl"
+            width={300}
+            height={300}
+            layout="responsive"
+            objectFit="cover"
+            className="rounded-lg"
           />
-          <h1 className="mt-6 font-serif text-lg font-bold">
-            Himalayan Ibex Hunting
-          </h1>
-          <button className="mt-2 mb-6 bg-slate-700 text-white py-2 px-4 rounded hover:bg-blue-700">
-            Learn More
-          </button>
         </div>
-        {/* ==============SECOND IMAGE=========== */}
-        <div className="flex flex-col items-center m-4 group border shadow-xl">
+        <div className="p-6 pt-8">
+          <p className="text-sm flex text-center leading-snug text-gray-700">
+            The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
+          </p>
+          <div className='flex justify-center'>
+            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col h-[27rem] w-full md:w-[17rem] bg-white rounded-lg shadow-xl">
+        <div className="relative h-[15rem] md:h-[15rem] rounded-t-lg overflow-hidden">
           <Image
-            src={img2}
-            alt="markhore"
-            className="w-80 h-80 object-fill transition-transform transform group-hover:scale-105 rounded-3xl shadow-2xl"
+            src={ibex_ghulkin}
+            alt="ibex_ghulkin"
+            width={300}
+            height={300}
+            layout="responsive"
+            objectFit="cover"
+            className="rounded-lg"
           />
-          <h1 className="mt-6 font-serif text-lg font-bold">
-            Markhore Hunting
-          </h1>
-          <button className="mt-2 mb-6 bg-slate-700 text-white py-2 px-4 rounded hover:bg-blue-700">
-            Learn More
-          </button>
         </div>
-
-        {/* ==============THIRD IMAGE=========== */}
-        <div className="flex flex-col items-center m-4 group border shadow-xl">
+        <div className="p-6 pt-8">
+          <p className="text-sm flex text-center leading-snug text-gray-700">
+            The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
+          </p>
+          <div className='flex justify-center'>
+            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col h-[27rem] w-full md:w-[17rem] bg-white rounded-lg shadow-xl">
+        <div className="relative h-[15rem] md:h-[15rem] rounded-t-lg overflow-hidden">
           <Image
-            src={img3}
-            alt="bluesheep"
-            className="w-80 h-80 object-fill transition-transform transform group-hover:scale-105 rounded-3xl shadow-2xl"
+            src={ibex}
+            alt="ibex"
+            width={300}
+            height={300}
+            layout="responsive"
+            objectFit="cover"
+            className="rounded-lg"
           />
-          <h1 className="mt-6 font-serif text-lg font-bold">
-            BlueSheep Hunting
-          </h1>
-          <button className="mt-2 mb-6 bg-slate-700 text-white py-2 px-4 rounded hover:bg-blue-700">
-            Learn More
-          </button>
         </div>
-      </main>
-    </section>
+        <div className="p-6 pt-8">
+          <p className="text-sm flex text-center leading-snug text-gray-700">
+            The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
+          </p>
+          <div className='flex justify-center'>
+            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col h-[27rem] w-full md:w-[17rem] bg-white rounded-lg shadow-xl">
+        <div className="relative h-[15rem] md:h-[15rem] rounded-t-lg overflow-hidden">
+          <Image
+            src={ibex}
+            alt="ibex"
+            width={300}
+            height={300}
+            layout="responsive"
+            objectFit="cover"
+            className="rounded-lg"
+          />
+        </div>
+        <div className="p-6 pt-8">
+          <p className="text-sm flex text-center leading-snug text-gray-700">
+            The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
+          </p>
+          <div className='flex justify-center'>
+            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }
