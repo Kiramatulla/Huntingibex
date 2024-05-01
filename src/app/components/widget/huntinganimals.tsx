@@ -9,7 +9,7 @@ import ibex_ghulkin from "../../../../public/images/ibex_ghulkin_region.jpg";
 
 export default function Page() {
   return (
-    <main className='flex flex-col md:flex-row justify-center pt-8 md:pt-20 space-y-8  md:space-y-0 md:space-x-4'>
+    <main className='flex flex-col md:flex-row justify-center pt-8 md:pt-20 space-y-8 md:space-y-0 md:space-x-4'>
       <div className="flex flex-col h-[27rem] w-full md:w-[17rem]  bg-white rounded-lg shadow-xl">
         <div className="relative h-[14rem] md:h-[15rem] rounded-t-lg overflow-hidden">
           <Image
@@ -73,7 +73,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col h-[27rem] w-full md:w-[17rem] bg-white rounded-lg shadow-xl">
+      {/* <div className="flex flex-col h-[27rem] w-full md:w-[17rem] bg-white rounded-lg shadow-xl">
         <div className="relative h-[15rem] md:h-[15rem] rounded-t-lg overflow-hidden">
           <Image
             src={ibex}
@@ -93,7 +93,7 @@ export default function Page() {
             <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }

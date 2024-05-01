@@ -8,7 +8,7 @@ import Button from "./components/widget/button"
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-slate-100">
       <div
         className="bg-cover bg-center h-[35rem] w-full"
         style={{ backgroundImage: `url('/images/ibexhunting.jpg')` }}
