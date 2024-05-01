@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="mt-28 mb-28 md:mt-28 mx-4 md:mx-40  font-serif text-center">
+    <div className="mt-28 mb-16 md:mt-28 mx-4 md:mx-40  font-serif text-center">
       <h1 className="text-3xl md:text-4xl font-bold mb-2">
         Hunting Himalayan Ibex In Pakistan
       </h1>

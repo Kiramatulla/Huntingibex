@@ -4,10 +4,10 @@ import treks from "../../../../public/images/trekk.jpg";
 
 export default function BlogHome() {
   return (
-    <section className="mt-10 mb-10 px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden">
+    <section className="mt-20 mb-10 px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden">
       <h1 className="text-center font-bold text-3xl sm:text-4xl lg:text-5xl mt-6 mb-4">LATEST OF OUR BLOGS</h1>
       <p className="text-center text-sm sm:text-base lg:text-lg mb-8">Learn more about the trip and the region where you are going to hunt</p>
-      <div className="flex flex-col m-28 sm:flex-row justify-center sm:justify-between items-center">
+      <div className="flex flex-col m-24 sm:flex-row justify-center sm:justify-between items-center">
         {/* First main section */}
         <main className="flex flex-col w-full sm:w-auto mb-8 sm:mb-0 lg:border-8 lg:border-black lg:p-4 lg:rounded-2xl">
           {/* Image and header/paragraph div */}

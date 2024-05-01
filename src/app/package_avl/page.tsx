@@ -1,5 +1,7 @@
 import Packages from "../components/widget/packages"
+import Ghulkin_area from "../components/widget/ghulkin_area"
 import Contactpackage from "../components/widget/contactpackage"
+import Passu_area from "../components/widget/passu_area"
 import Footer from "../components/widget/footer"
 
 export default function package_avl() {
@@ -10,6 +12,8 @@ export default function package_avl() {
         style={{ backgroundImage: `url('/images/gulmit.jpg')` }}
       ></div>
       <Packages/>
+      <Ghulkin_area/>
+      <Passu_area/>
       <Contactpackage/>
       <Footer/>
     </div>
