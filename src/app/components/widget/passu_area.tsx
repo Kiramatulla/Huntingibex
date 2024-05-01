@@ -27,7 +27,7 @@ export default function Page() {
             The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
           </p>
           <div className='flex justify-center'>
-            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+            <button className='m-8 p-2 rounded-lg flex bg-slate-600 hover:bg-slate-800 text-white transition duration-300'> BOOK NOW</button>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function Page() {
             The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
           </p>
           <div className='flex justify-center'>
-            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+            <button className='m-8 p-2 rounded-lg flex bg-slate-600 hover:bg-slate-800 text-white transition duration-300'> BOOK NOW</button>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function Page() {
             The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
           </p>
           <div className='flex justify-center'>
-            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+            <button className='m-8 p-2 rounded-lg flex bg-slate-600 hover:bg-slate-800 text-white transition duration-300'> BOOK NOW</button>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Page() {
             The ibex, a species of wild goat, thrives in rugged mountainous terrain, showcasing remarkable agility and majestic horns.
           </p>
           <div className='flex justify-center'>
-            <button className='m-8 p-2 rounded-lg flex bg-blue-500 hover:bg-blue-600 text-white transition duration-300'> BOOK NOW</button>
+            <button className='m-8 p-2 rounded-lg flex bg-slate-600 hover:bg-slate-800 text-white transition duration-300'> BOOK NOW</button>
           </div>
         </div>
       </div>

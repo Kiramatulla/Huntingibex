@@ -8,7 +8,7 @@ export default function Contactpackage() {
         <h1 className="text-3xl font-bold mb-4">Get in Touch</h1>
         <p className="text-lg mb-4">Have a question or want to book a hunting tour with us? Feel free to contact us!</p>
         <Link href={"/contactus"}>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+        <button className="bg-slate-600 hover:bg-slate-800 text-white px-4 py-2 rounded-md  focus:outline-none focus:bg-blue-600">
           Contact Us
         </button>
         </Link>
