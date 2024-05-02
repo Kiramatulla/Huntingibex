@@ -11,7 +11,7 @@ import { FaFacebook,FaInstagram,FaYoutube } from "react-icons/fa";
 
 export default function Teammem() {
     return (
-      <section className="mt-10 pt-20 md:mt-20 mb-20 bg-gray-100 overflow-hidden">
+      <section className="mt-10 pt-6 md:mt-20 mb-20 bg-gray-100 overflow-hidden">
         <h1 className="text-center text-2xl font-bold font-serif">OUR FABULOUS TEAM</h1>
         <p className="text-center text-sm font-bold font-serif m-3">MEET OUR FABULOUS TEAM OF EXPERT GUIDES AND HUNTERS</p>
         <main className="flex flex-col md:flex-row md:justify-center md:space-x-8">
