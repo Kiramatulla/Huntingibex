@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import ibexImg from "/public/images/borithsnip.png";
+import borithSnip from "../../../../public/images/borithsnip.png";
+
 
 function BlogmainBg() {
   return (
@@ -12,7 +13,7 @@ function BlogmainBg() {
             // style={{ backgroundImage: `url('/images/ibeee.jpg')` }}
           >
             <Image
-              src={ibexImg}
+              src={borithSnip}
               alt="image of ibex on a mountain"
               className="object-cover object-center w-full h-full"
             />
