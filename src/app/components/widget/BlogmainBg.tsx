@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import ibexImg from "/public/images/Ibeee.jpg";
+import ibexImg from "/public/images/borithsnip.png";
 
-function Hero() {
+function BlogmainBg() {
   return (
     <div>
       <div className="relative  h-[35rem]  text-white overflow-hidden ">
@@ -22,7 +22,7 @@ function Hero() {
 
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
           <h1 className="text-5xl font-bold leading-tight mb-4">
-            Start Your Hunting Journey
+          CHOOSE US AFTER DOING YOUR RESEARCH
           </h1>
           <p className="text-lg text-gray-300 mb-8">
             Discover amazing features and services that await you.
@@ -39,4 +39,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default BlogmainBg;
