@@ -6,7 +6,7 @@ export default function ExpertTeam() {
         <p className="text-center">
           Discover the thrill of hunting in your favorite season with our
           exceptional services. Whether you prefer the crisp air of fall or the
-          tranquility of winter, our hunting expeditions cater to your preferred
+          tranquility of winter our hunting expeditions cater to your preferred
           season.
         </p>
       </div>
@@ -14,7 +14,7 @@ export default function ExpertTeam() {
         <h2 className="font-semibold pb-8 text-center">Professional Team</h2>
         <p className="text-center">
           Explore our professional team of hunting experts who are dedicated to
-          providing you with an unforgettable experience. From guides to trackers,
+          providing you with an unforgettable experience. From guides to trackers
           our team ensures your safety and success.
         </p>
       </div>
