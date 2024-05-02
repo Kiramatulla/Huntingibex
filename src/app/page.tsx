@@ -3,16 +3,15 @@ import Expert from "./components/widget/expertteam";
 import Huntinganimal from "./components/widget/huntinganimals";
 import Bloghomeee from "./components/widget/bloghome";
 import Teammem from "./components/widget/teammem";
-import Footer from "./components/widget/footer"
-import Button from "./components/widget/button"
+import Footer from "./components/widget/footer";
+import Button from "./components/widget/button";
+import Hero from "./components/widget/Hero";
+import CardsHome from "./components/widget/CardsHome";
 
 export default function Home() {
   return (
     <div className="overflow-hidden bg-slate-100">
-      <div
-        className="bg-cover bg-center h-[35rem] w-full"
-        style={{ backgroundImage: `url('/images/ibexhunting.jpg')` }}
-      ></div>
+     <Hero/>
 
       <Aboutparagraph />
       <Huntinganimal />
@@ -20,7 +19,7 @@ export default function Home() {
 
 
       {/* <Featureanimal /> */}
-      <Bloghomeee />
+      <Bloghomeee/>
       <Expert />
       <Teammem/>
       <Button/>

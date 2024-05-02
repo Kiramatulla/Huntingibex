@@ -26,7 +26,7 @@ export default function Header() {
             alt="logoimage"
             width={100}
             height={100}
-            className=" rounded-full bg-white ]"
+            className=" invert "
           />
         </Link>
         <div>
