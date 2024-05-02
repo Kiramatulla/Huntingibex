@@ -39,7 +39,7 @@ export default function package_avl() {
     </div>
   </div>
 
-  <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center p-20 gap-14 bg-slate-200 overflow-hidden ">
+  <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center lg:p-28 p-16 gap-14 bg-slate-200 overflow-hidden ">
     <Packages
       title={"Ghulkin"}
       imgSrc={ibexGhulkin}
@@ -96,13 +96,21 @@ export default function package_avl() {
       }
       level={80}
     />
+    <Packages
+      title={"Hussaini"}
+      imgSrc={ibexGulmit}
+      description={
+        " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+      }
+      level={80}
+    />
   </div>
 
   {/* <Ghulkin_area/> */}
   {/* <Passu_area/> */}
 
-  {/* <Contactpackage />
-  <Footer /> */}
+  <Contactpackage />
+  <Footer />
 </div>
 );
 }
