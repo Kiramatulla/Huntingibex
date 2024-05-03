@@ -37,7 +37,7 @@ export default function Footer() {
           </h3>
           <p className="text-gray-500 text-sm mb-10">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s.
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function Footer() {
           <ul>
             <li className="my-2">
               <a className="hover:text-indigo-600" href="#">
-                XXX XXXX, Floor 4 San Francisco, CA
+                XXX XXXX Floor 4 San Francisco CA
               </a>
             </li>
             <li className="my-2">
