@@ -21,8 +21,8 @@ export default function ExpertTeam() {
       <div className="max-w-md text-lg leading-7 sm:pl-8">
         <h2 className="font-semibold pb-4 text-center">Expert Hunters</h2>
         <p className="text-center">
-          Join our community of expert hunters and enthusiasts to share knowledge,
-          experiences, and tips. Whether youre a seasoned hunter or just starting,
+          Join our community of expert hunters and enthusiasts to share knowledge
+          experiences and tips. Whether youre a seasoned hunter or just starting
           our community welcomes you.
         </p>
       </div>
