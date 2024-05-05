@@ -6,6 +6,8 @@ import Teammem from "./components/widget/teammem";
 import Footer from "./components/widget/footer";
 import Button from "./components/widget/button";
 import Hero from "./components/widget/Hero";
+import FrequentlyQuestions from "./components/widget/frequentlyQuestions";
+import Packageforhome from "./components/widget/PackageForHome"
 import CardsHome from "./components/widget/CardsHome";
 
 export default function Home() {
@@ -15,6 +17,7 @@ export default function Home() {
 
       <Aboutparagraph />
       <Huntinganimal />
+      <Huntinganimal/>
       {/* <Featuretrip/> */}
 
 
@@ -22,6 +25,7 @@ export default function Home() {
       <Bloghomeee/>
       <Expert />
       <Teammem/>
+      <FrequentlyQuestions/>
       <Button/>
       <Footer/>
       
