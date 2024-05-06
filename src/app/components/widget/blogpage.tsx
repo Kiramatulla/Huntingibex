@@ -6,42 +6,192 @@ import React from "react";
 
 export default function Blogpage() {
   return (
-    <div className="flex flex-row items-center mt-20 mr-10 ml-10 lg:mt-28 lg:ml-28 lg:mr-40 overflow-hidden">
-      <div className="flex flex-col items-center lg:flex-row bg-white lg:mr-60 shadow-2xl rounded-2xl">
-        <Image
-          src={map}
-          alt="blogmap"
-          width={200} // Set initial width of the image
-          height={200} // Set initial height of the image
-          className="rounded-lg "
-        />
-        <div className="lg:ml-6 lg:mr-6 lg:mt-4 pr-4 pl-4 pb-4">
-        <h1 className="font-bold text-center">Hunza Pakistan</h1>
-        <p className="mt-4 text-center">
-          It lies in the mountains of Northern Pakistan, the gigantic and
-          colorful Hunza Valley far in the Gilgit Baltistan region near the
-          China border. Hunza Valley is one of the most beautiful places to
-          visit Valley is one of the most beautiful places to visit Valley is
-          one of the most beautiful places{" "}
-        </p>
-        <div className="flex justify-center mt-6">
-            <Link href={'/blogs/hunzavalley'}>
-            <button className="bg-slate-900 text-white rounded-lg pr-6 pl-6 pt-2 pb-2">READ</button>
-            </Link>
-           
-        </div>
-          
-        </div>
-      </div>
-      {/* Hide this div for small and medium screens */}
-      <div className="hidden md:hidden lg:block">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">CATEGORIES</h2>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 lg:m-32 mt-40 ">
+    <div className="rounded-lg bg-gray-200">
+      <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
+  <Image
+    alt="gulmit gojal hunza"
+    src={map}
+    className="h-56 w-full object-cover"
+  />
 
-        <p className="text-gray-700 pl-6 pb-2 font-bold">Hunting Region</p>
-        <p className="text-gray-700 pl-6 pb-2 font-bold">Accommodation</p>
-        <p className="text-gray-700 pl-6 pb-2 font-bold">Office</p>
-        <p className="text-gray-700 pl-6 pb-2 font-bold"></p>
-      </div>
+  <div className="p-4 sm:p-6">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+      dignissimos. Molestias explicabo corporis voluptatem?
+    </p>
+
+    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+      Find out more
+
+      <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+        &rarr;
+      </span>
+    </a>
+  </div>
+</article></div>
+    <div className="rounded-lg bg-gray-200"><article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    className="h-56 w-full object-cover"
+  />
+
+  <div className="p-4 sm:p-6">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+      dignissimos. Molestias explicabo corporis voluptatem?
+    </p>
+
+    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+      Find out more
+
+      <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+        &rarr;
+      </span>
+    </a>
+  </div>
+</article></div>
+    <div className=" rounded-lg bg-gray-200">
+    <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    className="h-56 w-full object-cover"
+  />
+
+  <div className="p-4 sm:p-6">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+      dignissimos. Molestias explicabo corporis voluptatem?
+    </p>
+
+    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+      Find out more
+
+      <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+        &rarr;
+      </span>
+    </a>
+  </div>
+</article>
     </div>
+    <div className="rounded-lg bg-gray-200">  <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    className="h-56 w-full object-cover"
+  />
+
+  <div className="p-4 sm:p-6">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+      dignissimos. Molestias explicabo corporis voluptatem?
+    </p>
+
+    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+      Find out more
+
+      <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+        &rarr;
+      </span>
+    </a>
+  </div>
+</article></div>
+    <div className="rounded-lg bg-gray-200">  <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    className="h-56 w-full object-cover"
+  />
+
+  <div className="p-4 sm:p-6">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+      dignissimos. Molestias explicabo corporis voluptatem?
+    </p>
+
+    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+      Find out more
+
+      <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+        &rarr;
+      </span>
+    </a>
+  </div>
+</article></div>
+    <div className="rounded-lg bg-gray-200">  <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    className="h-56 w-full object-cover"
+  />
+
+  <div className="p-4 sm:p-6">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
+      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
+      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
+      dignissimos. Molestias explicabo corporis voluptatem?
+    </p>
+
+    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+      Find out more
+
+      <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
+        &rarr;
+      </span>
+    </a>
+  </div>
+</article></div>
+  </div>
+
+
   );
 }

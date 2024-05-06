@@ -7,14 +7,14 @@ import BlogmainBg from "../components/widget/BlogmainBg"
 
 export default function Blogs() {
   return (
-    <div className="bg-gray-100 overflow-hidden">
+    <div className=" overflow-hidden">
       
     
       <BlogmainBg/>
       
       <Blogss/>
-      <Blogs2/>
-      <Blogs3/>
+      {/* <Blogs2/>
+      <Blogs3/> */}
       <Buttononly/>
       <Footer/>
       
