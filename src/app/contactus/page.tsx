@@ -3,7 +3,7 @@ import Footer from "../components/widget/footer"
 
 export default function contactus() {
   return (
-    <div>
+    <div >
       {/* <div
         className="bg-cover bg-center h-[35rem] w-full "
         style={{ backgroundImage: `url('/images/accomodationpage.jpg')` }}

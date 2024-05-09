@@ -7,7 +7,7 @@ import BlogmainBg from "../components/widget/BlogmainBg"
 
 export default function Blogs() {
   return (
-    <div className=" overflow-hidden">
+    <div className=" overflow-hidden bg-slate-100">
       
     
       <BlogmainBg/>

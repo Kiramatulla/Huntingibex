@@ -12,8 +12,8 @@ export default function Blogs() {
       ></div>
       <h1 className="text-center pt-20 text-2xl font-serif font-bold">CHOOSE US AFTER DOING YOUR RESEARCH</h1>
       <Blogss/>
-      <Blogs2/>
-      <Blogs3/>
+      {/* <Blogs2/>
+      <Blogs3/> */}
       <Footer/>
     </div>
   );

@@ -16,11 +16,11 @@ export default function Blogpage() {
   />
 
   <div className="p-4 sm:p-6">
-    <a href="#">
+    <Link href={'/blogs/hunzavalley'}>
       <h3 className="text-lg font-medium text-gray-900">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h3>
-    </a>
+    </Link>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
@@ -29,13 +29,13 @@ export default function Blogpage() {
       dignissimos. Molestias explicabo corporis voluptatem?
     </p>
 
-    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+    <Link href={'/blogs/hunzavalley'} className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
       Find out more
 
       <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
         &rarr;
       </span>
-    </a>
+    </Link>
   </div>
 </article></div>
     <div className="rounded-lg bg-gray-200"><article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
@@ -46,11 +46,11 @@ export default function Blogpage() {
   />
 
   <div className="p-4 sm:p-6">
-    <a href="#">
+    <Link href={'/blogs/hunzawildlife'}>
       <h3 className="text-lg font-medium text-gray-900">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h3>
-    </a>
+    </Link>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
@@ -59,13 +59,13 @@ export default function Blogpage() {
       dignissimos. Molestias explicabo corporis voluptatem?
     </p>
 
-    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+    <Link href={'/blogs/hunzawildlife'} className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
       Find out more
 
       <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
         &rarr;
       </span>
-    </a>
+    </Link>
   </div>
 </article></div>
     <div className=" rounded-lg bg-gray-200">
@@ -77,11 +77,11 @@ export default function Blogpage() {
   />
 
   <div className="p-4 sm:p-6">
-    <a href="#">
+    <Link href={'/blogs/himalayanIbex'}>
       <h3 className="text-lg font-medium text-gray-900">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h3>
-    </a>
+    </Link>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
@@ -90,13 +90,13 @@ export default function Blogpage() {
       dignissimos. Molestias explicabo corporis voluptatem?
     </p>
 
-    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+    <Link href={'/blogs/himalayanIbex'} className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
       Find out more
 
       <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
         &rarr;
       </span>
-    </a>
+    </Link>
   </div>
 </article>
     </div>
@@ -108,11 +108,11 @@ export default function Blogpage() {
   />
 
   <div className="p-4 sm:p-6">
-    <a href="#">
+    <Link href={'/blogs/blueSheep'} >
       <h3 className="text-lg font-medium text-gray-900">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h3>
-    </a>
+    </Link>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
@@ -121,13 +121,13 @@ export default function Blogpage() {
       dignissimos. Molestias explicabo corporis voluptatem?
     </p>
 
-    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+    <Link href={'/blogs/blueSheep'}  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
       Find out more
 
       <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
         &rarr;
       </span>
-    </a>
+    </Link>
   </div>
 </article></div>
     <div className="rounded-lg bg-gray-200">  <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">
@@ -138,11 +138,11 @@ export default function Blogpage() {
   />
 
   <div className="p-4 sm:p-6">
-    <a href="#">
+    <Link href={'/blogs/markhore'}>
       <h3 className="text-lg font-medium text-gray-900">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h3>
-    </a>
+    </Link>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
@@ -151,13 +151,13 @@ export default function Blogpage() {
       dignissimos. Molestias explicabo corporis voluptatem?
     </p>
 
-    <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+    <Link href={'/blogs/markhore'} className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
       Find out more
 
       <span aria-hidden="true" className="block transition-all group-hover:ms-0.5 rtl:rotate-180">
         &rarr;
       </span>
-    </a>
+    </Link>
   </div>
 </article></div>
     <div className="rounded-lg bg-gray-200">  <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg">

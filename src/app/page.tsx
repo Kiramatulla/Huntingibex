@@ -7,7 +7,7 @@ import Footer from "./components/widget/footer";
 import Button from "./components/widget/button";
 import Hero from "./components/widget/Hero";
 import FrequentlyQuestions from "./components/widget/frequentlyQuestions";
-import Packageforhome from "./components/widget/PackageForHome"
+
 import CardsHome from "./components/widget/CardsHome";
 
 export default function Home() {

@@ -2,7 +2,7 @@
 export default function ContactUs() {
   return (
     <div>
-      <div className="max-w-6xl mx-auto bg-white my-6 font-[sans-serif] text-[#011c2b]">
+      <div className="max-w-6xl mx-auto bg-slate-100 my-6 font-[sans-serif] text-[#011c2b]">
         <div className="text-center px-6">
           <h2 className="text-3xl font-extrabold">Contact Us</h2>
           <p className="text-sm text-gray-400 mt-3">
